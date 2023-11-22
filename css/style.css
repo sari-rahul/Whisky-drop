@@ -4,6 +4,13 @@ body {
 
 /* Containers */
 
+.container-wrapper{}
+
+.container-wrapper-red{
+    background-color: #f05f40;
+    color: white
+}
+
 .alert-container .col-12 {
     padding:0px;
 }
@@ -59,6 +66,9 @@ body {
 
 .block-divider--orange {
     background-color: #f05f40;
+}
+.block-divider--white{
+    background-color: white;
 }
 
 .block-divider--short {
@@ -158,4 +168,14 @@ body {
 .content-container{
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
